@@ -1,0 +1,23 @@
+{
+  "name": "spark-meter",
+  "version": "0.1.0",
+  "description": "Animated Claude band with model, context, 5h and weekly limits",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "costUnit": {
+      "type": "string",
+      "title": "Costo de la sesión",
+      "description": "Mostrar el costo en dólares o en tokens",
+      "default": "tokens",
+      "options": [
+        "dollars",
+        "tokens"
+      ]
+    }
+  },
+  "author": {
+    "name": "ICG-dev"
+  },
+  "repository": "https://github.com/ICG-dev/claude-spark-meter",
+  "license": "MIT"
+}

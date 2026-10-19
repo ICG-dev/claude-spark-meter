@@ -1,0 +1,13 @@
+{
+  "name": "claude-spark-meter",
+  "owner": {
+    "name": "ICG-dev"
+  },
+  "plugins": [
+    {
+      "name": "spark-meter",
+      "source": "./"
+    }
+  ],
+  "description": "Franja animada para Claude Code con modelo, effort, contexto y límites de uso"
+}
